@@ -1,0 +1,440 @@
+This is Google's cache of https://beginnersbook.com/2013/03/inheritance-in-java/. It is a snapshot of the page as it appeared on Feb 28, 2018 01:20:31 GMT.
+The current page could have changed in the meantime. Learn more
+Full versionText-only versionView sourceTip: To quickly find your search term on this page, press Ctrl+F or ?-F (Mac) and use the find bar.
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head >
+<meta charset="UTF-8" />
+<title>Inheritance in Java Programming with examples</title><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- This site is optimized with the Yoast SEO plugin v5.9.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Java Inheritance: The process by which one class acquires the properties(instance variables) and functionalities of another class is called inheritance."/>
+<link rel="canonical" href="https://beginnersbook.com/2013/03/inheritance-in-java/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Inheritance in Java Programming with examples" />
+<meta property="og:description" content="Java Inheritance: The process by which one class acquires the properties(instance variables) and functionalities of another class is called inheritance." />
+<meta property="og:url" content="https://beginnersbook.com/2013/03/inheritance-in-java/" />
+<meta property="og:site_name" content="beginnersbook.com" />
+<meta property="article:section" content="OOPs Concept" />
+<meta property="article:published_time" content="2013-03-22T23:20:02+00:00" />
+<meta property="article:modified_time" content="2017-09-11T10:24:47+00:00" />
+<meta property="og:updated_time" content="2017-09-11T10:24:47+00:00" />
+<meta property="og:image" content="https://beginnersbook.com/wp-content/uploads/2013/03/Single_Inheritance.jpg" />
+<meta property="og:image:secure_url" content="https://beginnersbook.com/wp-content/uploads/2013/03/Single_Inheritance.jpg" />
+<meta property="og:image" content="https://beginnersbook.com/wp-content/uploads/2013/12/Multilevel_Inheritance.jpg" />
+<meta property="og:image:secure_url" content="https://beginnersbook.com/wp-content/uploads/2013/12/Multilevel_Inheritance.jpg" />
+<meta property="og:image" content="https://beginnersbook.com/wp-content/uploads/2013/10/Hierarchical_Inheritance.jpg" />
+<meta property="og:image:secure_url" content="https://beginnersbook.com/wp-content/uploads/2013/10/Hierarchical_Inheritance.jpg" />
+<meta property="og:image" content="https://beginnersbook.com/wp-content/uploads/2013/05/Multiple_Inheritance.jpg" />
+<meta property="og:image:secure_url" content="https://beginnersbook.com/wp-content/uploads/2013/05/Multiple_Inheritance.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Java Inheritance: The process by which one class acquires the properties(instance variables) and functionalities of another class is called inheritance." />
+<meta name="twitter:title" content="Inheritance in Java Programming with examples" />
+<meta name="twitter:image" content="https://beginnersbook.com/wp-content/uploads/2013/03/Single_Inheritance.jpg" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/beginnersbook.com\/","name":"beginnersbook.com","potentialAction":{"@type":"SearchAction","target":"https:\/\/beginnersbook.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//beginnersbook.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="beginnersbook.com &raquo; Feed" href="https://feeds.feedburner.com/BeginnersBookFeed" />
+<link rel="alternate" type="application/rss+xml" title="beginnersbook.com &raquo; Comments Feed" href="https://beginnersbook.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="beginnersbook.com &raquo; Inheritance in Java Programming with examples Comments Feed" href="https://beginnersbook.com/2013/03/inheritance-in-java/feed/" />
+<link rel='stylesheet' id='news-pro-theme-css'  href='https://beginnersbook.com/wp-content/themes/news-pro/style.css?ver=3.0.31' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=PT+Sans:400,700' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://beginnersbook.com/wp-content/themes/genesis/lib/js/html5shiv.js?ver=3.7.3'></script>
+<![endif]-->
+<script type='text/javascript' src='https://beginnersbook.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://beginnersbook.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://beginnersbook.com/wp-content/themes/news-pro/js/responsive-menu.js?ver=1.0.0'></script>
+<link rel='https://api.w.org/' href='https://beginnersbook.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://beginnersbook.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://beginnersbook.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.4" />
+<link rel='shortlink' href='https://beginnersbook.com/?p=1670' />
+<link rel="alternate" type="application/json+oembed" href="https://beginnersbook.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbeginnersbook.com%2F2013%2F03%2Finheritance-in-java%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://beginnersbook.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbeginnersbook.com%2F2013%2F03%2Finheritance-in-java%2F&#038;format=xml" />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1952308982289269",
+    enable_page_level_ads: true
+  });
+</script><style type="text/css">.site-title a { background: url(https://beginnersbook.com/wp-content/uploads/2017/02/cropped-bbook_logo_17.png) no-repeat !important; }</style>
+<link rel="icon" href="https://beginnersbook.com/wp-content/uploads/2016/03/favicon2.png" sizes="32x32" />
+<link rel="icon" href="https://beginnersbook.com/wp-content/uploads/2016/03/favicon2.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://beginnersbook.com/wp-content/uploads/2016/03/favicon2.png" />
+<meta name="msapplication-TileImage" content="https://beginnersbook.com/wp-content/uploads/2016/03/favicon2.png" />
+</head>
+<body class="post-template-default single single-post postid-1670 single-format-standard custom-header header-image header-full-width sidebar-content-sidebar news-pro-green" itemscope itemtype="https://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="https://schema.org/WPHeader"><div class="wrap"></div></header><nav class="nav-primary" itemscope itemtype="https://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-main-menu" class="menu genesis-nav-menu menu-primary"><li id="menu-item-6105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6105"><a href="https://beginnersbook.com" itemprop="url"><span itemprop="name">Home</span></a></li>
+<li id="menu-item-5678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5678"><a href="https://beginnersbook.com/java-tutorial-for-beginners-with-examples/" itemprop="url"><span itemprop="name">Core Java</span></a></li>
+<li id="menu-item-5682" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5682"><a href="https://beginnersbook.com/2013/04/oops-concepts/" itemprop="url"><span itemprop="name">OOPs</span></a></li>
+<li id="menu-item-6236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6236"><a href="https://beginnersbook.com/java-collections-tutorials/" itemprop="url"><span itemprop="name">Collections</span></a></li>
+<li id="menu-item-6237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6237"><a href="https://beginnersbook.com/java-io-tutorial-with-examples/" itemprop="url"><span itemprop="name">Java I/O</span></a></li>
+<li id="menu-item-6242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6242"><a href="https://beginnersbook.com/2015/04/json-tutorial/" itemprop="url"><span itemprop="name">JSON</span></a></li>
+<li id="menu-item-5679" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5679"><a href="https://beginnersbook.com/jsp-tutorial-for-beginners/" itemprop="url"><span itemprop="name">JSP</span></a></li>
+<li id="menu-item-6235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6235"><a href="https://beginnersbook.com/jsp-jstl-tutorial-jstl-functions-and-core-tags/" itemprop="url"><span itemprop="name">JSTL</span></a></li>
+<li id="menu-item-7076" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7076"><a href="https://beginnersbook.com/2013/05/servlet-tutorial/" itemprop="url"><span itemprop="name">Servlet</span></a></li>
+<li id="menu-item-6239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6239"><a href="https://beginnersbook.com/2014/01/c-tutorial-for-beginners-with-examples/" itemprop="url"><span itemprop="name">C Tutorial</span></a></li>
+<li id="menu-item-6241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6241"><a href="https://beginnersbook.com/2015/04/dbms-tutorial/" itemprop="url"><span itemprop="name">DBMS</span></a></li>
+<li id="menu-item-6243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6243"><a href="https://beginnersbook.com/2017/02/perl-tutorial-for-beginners/" itemprop="url"><span itemprop="name">Perl</span></a></li>
+</ul></div></nav><div class="site-inner"><div class="content-sidebar-wrap"><main class="content"><article class="post-1670 post type-post status-publish format-standard category-oops-concept entry" itemscope itemtype="https://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Inheritance in Java Programming with examples</h1>
+<p class="entry-meta">By <span class="entry-author" itemprop="author" itemscope itemtype="https://schema.org/Person"><span class="entry-author-name" itemprop="name">Chaitanya Singh</span></span> | <span class="entry-categories">Filed Under: <a href="https://beginnersbook.com/category/oops-concept/" rel="category tag">OOPs Concept</a></span> </p><style type="text/css">
+.bbook_responsive_top { display: block; width: 320px; height: 100px; margin: 15px auto; }
+@media(min-width: 500px) { .bbook_responsive_top {  width: 300px; height: 250px; margin: 15px auto; } }
+@media(min-width: 800px) { .bbook_responsive_top { margin: 15px auto; width: 728px; height: 90px; margin-left: 0; } }
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bbook_top_center -->
+<ins class="adsbygoogle bbook_responsive_top"
+     style="display:block"
+     data-ad-client="ca-pub-1952308982289269"
+     data-ad-slot="3105487525"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</header><div class="entry-content" itemprop="text"><p>The process by which one class acquires the properties(data members) and functionalities(methods) of another class is called <strong>inheritance</strong>. The aim of inheritance is to provide the reusability of code so that a class has to write only the unique features and rest of the common properties and functionalities can be extended from the another class.<br />
+<strong>Child Class:</strong><br />
+The class that extends the features of another class is known as child class, sub class or derived class.</p>
+<p><strong>Parent Class:</strong><br />
+The class whose properties and functionalities are used(inherited) by another class is known as parent class, super class or Base class.</p>
+<blockquote><p>Inheritance is a process of defining a new class based on an existing class by extending its common data members and methods.<br />
+Inheritance allows us to reuse of code, it improves reusability in your java application.<br />
+Note: The biggest <strong>advantage of Inheritance</strong> is that the code that is already present in base class need not be rewritten in the child class.</p></blockquote>
+<p>This means that the data members(instance variables) and methods of the parent class can be used in the child class as.</p><div class="googlead"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-format="fluid"
+     data-ad-layout="in-article"
+     data-ad-client="ca-pub-1952308982289269"
+     data-ad-slot="7043774673"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<blockquote><p>If you are finding it difficult to understand what is class and object then refer the guide that I have shared on object oriented programming: <a href="https://beginnersbook.com/2013/04/oops-concepts/">OOPs Concepts</a></p></blockquote>
+<p>Lets back to the topic:</p>
+<h2>Syntax: Inheritance in Java</h2>
+<p>To inherit a class we use extends keyword. Here class XYZ is child class and class ABC is parent class. The class XYZ is inheriting the properties and methods of ABC class.</p>
+<pre>class XYZ extends ABC
+{
+}</pre>
+<h2>Inheritance Example</h2>
+<p>In this example, we have a base class <code>Teacher</code> and a sub class <code>PhysicsTeacher</code>. Since class <code>PhysicsTeacher</code> extends the designation and college properties and work() method from base class, we need not to declare these properties and method in sub class.<br />
+Here we have collegeName, designation and work() method which are common to all the teachers so we have declared them in the base class, this way the child classes like <code>MathTeacher</code>, <code>MusicTeacher</code> and <code>PhysicsTeacher</code> do not need to write this code and can be used directly from base class.</p>
+<pre>class Teacher {
+   String designation = "Teacher";
+   String collegeName = "Beginnersbook";
+   void does(){
+	System.out.println("Teaching");
+   }
+}
+
+public class PhysicsTeacher extends Teacher{
+   String mainSubject = "Physics";
+   public static void main(String args[]){
+	PhysicsTeacher obj = new PhysicsTeacher();
+	System.out.println(obj.collegeName);
+	System.out.println(obj.designation);
+	System.out.println(obj.mainSubject);
+	obj.does();
+   }
+}
+</pre>
+<p>Output:</p>
+<pre>Beginnersbook
+Teacher
+Physics
+Teaching
+</pre>
+<blockquote><p>Based on the above example we can say that <code>PhysicsTeacher</code> <strong>IS-A</strong> <code>Teacher</code>. This means that a child class has IS-A relationship with the parent class. This is inheritance is known as <strong>IS-A relationship</strong> between child and parent class</p></blockquote>
+<p><strong>Note:</strong><br />
+The derived class inherits all the members and methods that are declared as public or protected. If the members or methods of super class are declared as private then the derived class cannot use them directly. The private members can be accessed only in its own class. Such private members can only be accessed using public or protected getter and setter methods of super class as shown in the example below.</p>
+<pre>class Teacher {
+   private String designation = "Teacher";
+   private String collegeName = "Beginnersbook";
+   public String getDesignation() {
+	return designation;
+   }
+   protected void setDesignation(String designation) {
+	this.designation = designation;
+   }
+   protected String getCollegeName() {
+	return collegeName;
+   }
+   protected void setCollegeName(String collegeName) {
+	this.collegeName = collegeName;
+   }
+   void does(){
+	System.out.println("Teaching");
+   }
+}
+
+public class JavaExample extends Teacher{
+   String mainSubject = "Physics";
+   public static void main(String args[]){
+	JavaExample obj = new JavaExample();
+	/* Note: we are not accessing the data members 
+	 * directly we are using public getter method 
+	 * to access the private members of parent class
+	 */
+	System.out.println(obj.getCollegeName());
+	System.out.println(obj.getDesignation());
+	System.out.println(obj.mainSubject);
+	obj.does();
+   }
+}
+</pre>
+<p>The output is:</p>
+<pre>Beginnersbook
+Teacher
+Physics
+Teaching
+</pre>
+<p>The important point to note in the above example is that the child class is able to access the private members of parent class through <strong>protected methods</strong> of parent class. When we make a instance variable(data member) or method <strong>protected</strong>, this means that they are accessible only in the class itself and in child class. These public, protected, private etc. are all access specifiers and we will discuss them in the coming tutorials.</p>
+<h2>Types of inheritance</h2>
+<p>To learn types of inheritance in detail, refer: <a href="https://beginnersbook.com/2013/05/java-inheritance-types/">Types</a> of Inheritance in Java.<br />
+<strong>Single Inheritance</strong>: refers to a child and parent class relationship where a class extends the another class.<br />
+<img class="aligncenter size-full wp-image-7193" src="https://beginnersbook.com/wp-content/uploads/2013/03/Single_Inheritance.jpg" alt="Single Inheritance" width="300" height="300" srcset="https://beginnersbook.com/wp-content/uploads/2013/03/Single_Inheritance.jpg 300w, https://beginnersbook.com/wp-content/uploads/2013/03/Single_Inheritance-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><a href="https://beginnersbook.com/2013/12/multilevel-inheritance-in-java-with-example/">Multilevel inheritance</a>: refers to a child and parent class relationship where a class extends the child class. For example class C extends class B and class B extends class A.<br />
+<img class="aligncenter size-full wp-image-7185" src="https://beginnersbook.com/wp-content/uploads/2013/12/Multilevel_Inheritance.jpg" alt="Multilevel Inheritance" width="300" height="300" srcset="https://beginnersbook.com/wp-content/uploads/2013/12/Multilevel_Inheritance.jpg 300w, https://beginnersbook.com/wp-content/uploads/2013/12/Multilevel_Inheritance-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><a href="https://beginnersbook.com/2013/10/hierarchical-inheritance-java-program/">Hierarchical inheritance</a>: refers to a child and parent class relationship where more than one classes extends the same class. For example, classes B, C &amp; D extends the same class A.<br />
+<img class="aligncenter size-full wp-image-7188" src="https://beginnersbook.com/wp-content/uploads/2013/10/Hierarchical_Inheritance.jpg" alt="Hierarchical Inheritance" width="300" height="300" srcset="https://beginnersbook.com/wp-content/uploads/2013/10/Hierarchical_Inheritance.jpg 300w, https://beginnersbook.com/wp-content/uploads/2013/10/Hierarchical_Inheritance-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><strong>Multiple Inheritance</strong>: refers to the concept of one class extending more than one classes, which means a child class has two parent classes. For example class C extends both classes A and B. Java doesn&#8217;t support multiple inheritance, read more about it <a href="https://beginnersbook.com/2013/05/java-multiple-inheritance/">here</a>.<br />
+<img class="aligncenter size-full wp-image-7190" src="https://beginnersbook.com/wp-content/uploads/2013/05/Multiple_Inheritance.jpg" alt="Multiple Inheritance" width="300" height="300" srcset="https://beginnersbook.com/wp-content/uploads/2013/05/Multiple_Inheritance.jpg 300w, https://beginnersbook.com/wp-content/uploads/2013/05/Multiple_Inheritance-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><a href="https://beginnersbook.com/2013/10/hybrid-inheritance-java-program/">Hybrid inheritance</a>: Combination of more than one types of inheritance in a single program. For example class A &amp; B extends class C and another class D extends class A then this is a hybrid inheritance example because it is a combination of single and hierarchical inheritance.</p>
+<h2>Constructors and Inheritance</h2>
+<p><a href="https://beginnersbook.com/2013/03/constructors-in-java/">constructor</a> of sub class is invoked when we create the object of subclass, it by default invokes the default constructor of super class. Hence, in inheritance the objects are constructed top-down. The superclass constructor can be called explicitly using the <a href="https://beginnersbook.com/2014/07/super-keyword-in-java-with-example/">super keyword</a>, but it should be first statement in a constructor. The super keyword refers to the superclass, immediately above of the calling class in the hierarchy. The use of multiple super keywords to access an ancestor class other than the direct parent is not permitted.</p>
+<pre>class ParentClass{
+   //Parent class constructor
+   ParentClass(){
+	System.out.println("Constructor of Parent");
+   }
+}
+class JavaExample extends ParentClass{
+   JavaExample(){
+	/* It by default invokes the constructor of parent class
+	 * You can use super() to call the constructor of parent.
+	 * It should be the first statement in the child class
+	 * constructor, you can also call the parameterized constructor
+	 * of parent class by using super like this: super(10), now
+	 * this will invoke the parameterized constructor of int arg
+	 */
+	System.out.println("Constructor of Child");
+   }
+   public static void main(String args[]){
+	//Creating the object of child class
+	new JavaExample();
+   }
+}</pre>
+<p>Output:</p>
+<pre>Constructor of Parent
+Constructor of Child</pre>
+<h2>Inheritance and Method Overriding</h2>
+<p>When we declare the same method in child class which is already present in the parent class the this is called <a href="https://beginnersbook.com/2014/01/method-overriding-in-java-with-example/">method overriding</a>. In this case when we call the method from child class object, the child class version of the method is called. However we can call the parent class method using super keyword as I have shown in the example below:</p>
+<pre>class ParentClass{
+   //Parent class constructor
+   ParentClass(){
+	System.out.println("Constructor of Parent");
+   }
+   void disp(){
+	System.out.println("Parent Method");
+   }
+}
+class JavaExample extends ParentClass{
+   JavaExample(){
+	System.out.println("Constructor of Child");
+   }
+   void disp(){
+	System.out.println("Child Method");
+        //Calling the disp() method of parent class
+	super.disp();
+   }
+   public static void main(String args[]){
+	//Creating the object of child class
+	JavaExample obj = new JavaExample();
+	obj.disp();
+   }
+}
+</pre>
+<p>The output is :</p>
+<pre>Constructor of Parent
+Constructor of Child
+Child Method
+Parent Method
+</pre>
+<div class="bb-nav"><a class="pretut" href="https://beginnersbook.com/2013/04/java-static-class-block-methods-variables/">? Previous</a><a class="nexttut" href="https://beginnersbook.com/2013/05/aggregation/">Next ?</a></div>
+</p></div><style>
+.bbook_responsive_bottom { display: block; width: 300px; height: 250px; margin: 15px auto; }
+@media(min-width: 800px) { .bbook_responsive_bottom { margin: 15px auto; width: 336px; height: 280px; margin-left: 0; } }
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bbook_bottom_center -->
+<ins class="adsbygoogle bbook_responsive_bottom"
+     style="display:block"
+     data-ad-client="ca-pub-1952308982289269"
+     data-ad-slot="6278445773"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<footer class="entry-footer"></footer></article><div class="entry-comments" id="comments"><h3>Comments</h3><ol class="comment-list">
+	<li class="comment even thread-even depth-1" id="comment-56006">
+	<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
+
+		
+		<header class="comment-header">
+			<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<img alt='' src='https://secure.gravatar.com/avatar/aa6faf0a1fa0581abf3e032d2326c1a7?s=48&#038;d=monsterid&#038;r=g' srcset='https://secure.gravatar.com/avatar/aa6faf0a1fa0581abf3e032d2326c1a7?s=96&#038;d=monsterid&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' /><span itemprop="name">Jerry</span> <span class="says">says</span>			</p>
+
+			<p class="comment-meta"><time class="comment-time" datetime="2016-05-31T08:31:14+00:00" itemprop="datePublished"><a href="https://beginnersbook.com/2013/03/inheritance-in-java/#comment-56006" class="comment-time-link" itemprop="url">May 31, 2016 at 8:31 AM</a></time></p>		</header>
+
+		<div class="comment-content" itemprop="text">
+			
+			<p>this book has really been helpful to enhance my java knowledge. Its simple to understand and it gives good examples</p>
+		</div>
+
+		<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='https://beginnersbook.com/2013/03/inheritance-in-java/?replytocom=56006#respond' onclick='return addComment.moveForm( "comment-56006", "56006", "respond", "1670" )' aria-label='Reply to Jerry'>Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-63259">
+	<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
+
+		
+		<header class="comment-header">
+			<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<img alt='' src='https://secure.gravatar.com/avatar/ccfcc3dde5c05ba3159473e0fc25577c?s=48&#038;d=monsterid&#038;r=g' srcset='https://secure.gravatar.com/avatar/ccfcc3dde5c05ba3159473e0fc25577c?s=96&#038;d=monsterid&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' /><span itemprop="name">sravanthi</span> <span class="says">says</span>			</p>
+
+			<p class="comment-meta"><time class="comment-time" datetime="2016-11-09T22:12:50+00:00" itemprop="datePublished"><a href="https://beginnersbook.com/2013/03/inheritance-in-java/#comment-63259" class="comment-time-link" itemprop="url">November 9, 2016 at 10:12 PM</a></time></p>		</header>
+
+		<div class="comment-content" itemprop="text">
+			
+			<p>Its simple to understand and it provides good examples.</p>
+		</div>
+
+		<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='https://beginnersbook.com/2013/03/inheritance-in-java/?replytocom=63259#respond' onclick='return addComment.moveForm( "comment-63259", "63259", "respond", "1670" )' aria-label='Reply to sravanthi'>Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ol></div>	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2013/03/inheritance-in-java/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://beginnersbook.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1670' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="763e629f4d" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="104"/></p>			</form>
+			</div><!-- #respond -->
+	</main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="https://schema.org/WPSideBar"><section id="search-2" class="widget widget_search"><div class="widget-wrap"><form class="search-form" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" method="get" action="https://beginnersbook.com/" role="search"><meta itemprop="target" content="https://beginnersbook.com/?s={s}"/><input itemprop="query-input" type="search" name="s" placeholder="Search this website &#x2026;" /><input type="submit" value="Search"  /></form></div></section>
+<section id="custom_html-2" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- BB_Top_Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1952308982289269"
+     data-ad-slot="1008192093"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div></section>
+<section id="custom_html-9" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bbook_right_sidebar_responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1952308982289269"
+     data-ad-slot="5732385980"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div></section>
+<section id="custom_html-31" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><div data-type="ad" data-publisher="Beginnersbook.com" data-format="160x600" data-zone="ros" ></div></div></div></section>
+<section id="custom_html-29" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><div data-type="ad" data-publisher="Beginnersbook.com" data-format="160x600" data-zone="ros" ></div></div></div></section>
+</aside></div><aside class="sidebar sidebar-secondary widget-area" role="complementary" aria-label="Secondary Sidebar" itemscope itemtype="https://schema.org/WPSideBar"><section id="custom_html-19" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h4 class="widget-title widgettitle">Java Tutorial</h4>
+<div class="textwidget custom-html-widget"><ul>
+ 	<li><a href="https://beginnersbook.com/2013/05/java-introduction/">Java Introduction</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/jvm/">JVM - Java Virtual Machine</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/first-java-program/">First Java Program</a></li>
+ 	<li><a href="https://beginnersbook.com/2017/08/variables-in-java/">Variables</a></li>
+ 	<li><a href="https://beginnersbook.com/2017/08/data-types-in-java/">Data Types</a></li>
+ 	<li><a href="https://beginnersbook.com/2017/08/operators-in-java/">Operators</a></li>
+ 	<li><a href="https://beginnersbook.com/2017/08/if-else-statement-in-java/">Java If-else</a></li>
+ 	<li><a href="https://beginnersbook.com/2017/08/java-switch-case/">Java Switch-Case</a></li>
+ 	<li><a href="https://beginnersbook.com/2015/03/for-loop-in-java-with-example/">Java For loop</a></li>
+ 	<li><a href="https://beginnersbook.com/2015/03/while-loop-in-java-with-examples/">Java while loop</a></li>
+ 	<li><a href="https://beginnersbook.com/2015/03/do-while-loop-in-java-with-example/">Java do-while loop</a></li>
+ 	<li><a href="https://beginnersbook.com/2017/08/java-continue-statement/">Continue statement</a></li>
+ 	<li><a href="https://beginnersbook.com/2017/08/java-break-statement/">break statement</a></li>
+</ul>
+<h4 class="widget-title">OOPs Concepts</h4>
+<ul>
+<li><a href="https://beginnersbook.com/2013/04/oops-concepts/">OOPs Concepts</a></li>
+<li><a href="https://beginnersbook.com/2013/03/constructors-in-java/">Constructor</a></li>
+<li><a href="https://beginnersbook.com/2013/04/java-static-class-block-methods-variables/">Static keyword</a></li>
+<li><a href="https://beginnersbook.com/2013/03/inheritance-in-java/">Inheritance</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/java-inheritance-types/">Types of inheritance</a></li>
+<li><a href="https://beginnersbook.com/2013/05/aggregation/">Aggregation</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/association/">Association</a></li>
+<li><a href="https://beginnersbook.com/2014/07/super-keyword-in-java-with-example/">Super Keyword</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/method-overloading/">Method overloading</a></li>
+ 	<li><a href="https://beginnersbook.com/2014/01/method-overriding-in-java-with-example/">Method overriding</a></li>
+ 	<li><a href="https://beginnersbook.com/2014/01/difference-between-method-overloading-and-overriding-in-java/">Overloading vs Overriding</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/03/polymorphism-in-java/">Polymorphism</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/04/runtime-compile-time-polymorphism/">Types of polymorphism</a></li>
+<li><a href="https://beginnersbook.com/2013/04/java-static-dynamic-binding/">Static and dynamic binding</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/java-abstract-class-method/">Abstract class and methods</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/java-interface/">Interface</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/abstract-class-vs-interface-in-java/">Abstract class vs interface</a></li>
+<li><a href="https://beginnersbook.com/2013/05/encapsulation-in-java/">Encapsulation</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/03/packages-in-java/">Packages</a></li>
+<li><a href="https://beginnersbook.com/2013/05/java-access-modifiers/">Access modifiers</a></li>
+<li><a href="https://beginnersbook.com/2013/04/java-garbage-collection/">Garbage Collection</a></li>
+<li><a href="https://beginnersbook.com/2013/05/inner-class/">Inner classes</a></li>
+<li><a href="https://beginnersbook.com/2013/05/java-static-import/">Static import</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/static-constructor/">Static constructor</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/05/java-interview-questions/">Java Interview Q</a></li>
+</ul>
+<h4 class="widget-title">MORE ...</h4>
+<ul>
+ 	<li><a href="https://beginnersbook.com/2013/12/java-strings/">Java String</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/04/java-exception-handling/">Exception handling</a></li>
+ 	<li><a href="https://beginnersbook.com/2013/03/multithreading-in-java/">Java Multithreading</a></li>
+ 	<li><a href="https://beginnersbook.com/java-io-tutorial-with-examples/">Java I/O</a></li>
+ 	<li><a href="https://beginnersbook.com/2014/07/java-serialization/">Java Serialization</a></li>
+ 	<li><a href="https://beginnersbook.com/2014/08/java-regex-tutorial/">Java Regex</a></li>
+ 	<li><a href="https://beginnersbook.com/2015/06/java-awt-tutorial/">Java AWT</a></li>
+ 	<li><a href="https://beginnersbook.com/2015/07/java-swing-tutorial/">Java Swing</a></li>
+ 	<li><a href="https://beginnersbook.com/2014/09/java-enum-examples/">Java Enum</a></li>
+ 	<li><a href="https://beginnersbook.com/2014/09/java-annotations/">Java Annotations</a></li>
+</ul></div></div></section>
+</aside></div><footer class="site-footer" itemscope itemtype="https://schema.org/WPFooter"><div class="wrap"><p>Copyright © 2012 – 2018 BeginnersBook - All Rights Reserved || <a href="https://beginnersbook.com/sitemap_index.xml" title="Sitemap">Sitemap</a></p></div></footer></div><script type="text/javascript" src="https://beginnersbook.com/highlighter/prettify.js"></script>
+<script type="text/javascript" charset="utf-8">
+jQuery(document).ready(function($) {
+       $('pre').addClass("prettyprint");
+       prettyPrint();
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35249844-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type='text/javascript'>
+function _dmBootstrap(file) {
+    var _dma = document.createElement('script');
+    _dma.type = 'text/javascript';
+    _dma.async = true;
+    _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+}
+function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js'); }
+(function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000); })();
+</script><script type='text/javascript' src='https://beginnersbook.com/wp-includes/js/comment-reply.min.js?ver=4.9.4'></script>
+<script type='text/javascript' src='https://beginnersbook.com/wp-includes/js/wp-embed.min.js?ver=4.9.4'></script>
+<script async="async" type='text/javascript' src='https://beginnersbook.com/wp-content/plugins/akismet/_inc/form.js?ver=4.0.1'></script>
+</body></html>
